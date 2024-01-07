@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  position: relative;
+}
+.block {
+  background-image: url("../img/flat-small-stone-podium-rock-platform-3d-illustration-gray-rock-pedestal-product-display-green-forest-blue-horizon-background-natural-scenery-landscape-soft-daily-light_204216-633.avif");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 703px;
+  background-size: cover;
+  background-position: 0px -400px;
+  padding: 20px;
+}
+#modal {
+  text-align: center;
+  background-color: aqua;
+  width: 500px;
+  height: 150px;
+  margin-left: 30%;
+  margin-right: 50%;
+  border-radius: 15px;
+  display: none;
+  position: absolute;
+  margin-top: 250px;
+}
+.modal_block {
+    display: none;
+}
+
+.bottom {
+  margin-top: 35px;
+  margin-left: 310px;
+}
+
+#modal #no {
+  width: 60px;
+  height: 30px;
+  background: #ff0000;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#modal #yes {
+  width: 60px;
+  height: 30px;
+  background: #3de40a;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 350px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 15px;
+}
+#span{
+    font-size: 30px;
+    position: absolute;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    cursor: pointer;
+    color: rgb(47, 45, 45);
+}
+
+#btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(77, 255, 61, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(77, 255, 61, 0);
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+#btn:hover {
+  background: #67e95e;
+}
