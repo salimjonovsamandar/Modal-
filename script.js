@@ -6,6 +6,7 @@ const input = document.getElementById("input");
 
 btn.addEventListener("click", function () {
   modal.style.display = "block";
+  input.value = "";
 });
 
 span.addEventListener("click", function () {
@@ -17,6 +18,7 @@ span.addEventListener("click", function () {
 yes.addEventListener("click", function () {
   if (input.value) {
     modal.style.display = "none";
+    input.value = "";
   } else {
     alert("Ism kiritilishi shart");
     input.focus();
